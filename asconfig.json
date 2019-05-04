@@ -1,0 +1,17 @@
+{
+  "type": "app",
+  "config": "airmobile",
+  "compilerOptions": {
+    "source-path": [
+      "src"
+    ],
+    "library-path": [
+      "lib"
+    ],
+    "output": "bin/Application.swf"
+  },
+  "application": "application.xml",
+  "files": [
+    "src/Application.as"
+  ]
+}
