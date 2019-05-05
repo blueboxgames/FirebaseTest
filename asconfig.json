@@ -2,16 +2,45 @@
   "type": "app",
   "config": "airmobile",
   "compilerOptions": {
+    "debug": true,
     "source-path": [
       "src"
     ],
     "library-path": [
-      "lib"
+      "lib",
+      "ext"
+    ],
+    "external-library-path": [
+      "ext/FirebaseANE.ane",
+      "ext/AnalyticsANE.ane",
+      "ext/FirestoreANE.ane",
+      "ext/StorageANE.ane",
+      "ext/RemoteConfigANE.ane",
+      "ext/AuthANE.ane",
+      "ext/DynamicLinksANE.ane",
+      "ext/InvitesANE.ane",
+      "ext/MessagingANE.ane",
+      "ext/PerformanceANE.ane",
+      "ext/CrashlyticsANE.ane"
     ],
     "output": "bin/Application.swf"
   },
   "application": "application.xml",
   "files": [
-    "src/Application.as"
-  ]
+    "src/Main.as"
+  ],
+  "airOptions": {
+    "target": "apk-debug",
+    "android": {
+      "target": "apk-debug",
+      "listen": true,
+      "extdir": ["ext"],
+      "signingOptions": {
+        "storetype": "pkcs12",
+        "keystore": "android.p12"
+      },
+      "output": "bin/Application.apk"
+    },
+    "extdir": ["ext"]
+  }
 }

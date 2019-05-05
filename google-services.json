@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "123068560070",
+    "firebase_url": "https://k2k-57928072.firebaseio.com",
+    "project_id": "k2k-57928072",
+    "storage_bucket": "k2k-57928072.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123068560070:android:5abfd9079a4dcc49",
+        "android_client_info": {
+          "package_name": "air.com.grantech.k2k"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "123068560070-n6lcglvcopi8ftgmhc6j43ubh7h1vo2t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDE2AHm_hDUhrcl3gTm-sd5VFzyP6hBq2E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "123068560070-n6lcglvcopi8ftgmhc6j43ubh7h1vo2t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

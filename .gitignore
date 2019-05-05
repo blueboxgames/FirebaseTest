@@ -3,3 +3,6 @@
 air
 bin
 lib
+ext
+
+android_cert.p12

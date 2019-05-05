@@ -1,0 +1,2 @@
+REM keytool -genkey -v -keystore certificat_android.p12 -alias firebasetest -keyalg RSA -keysize 2048 -storetype pkcs12 -validity 10000
+keytool -list -v -keystore certificat_android.keystore -alias firebasetest -storepass android -keypass android
